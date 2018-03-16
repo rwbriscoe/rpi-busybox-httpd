@@ -1,7 +1,7 @@
 #!/bin/bash 
 set -e
 
-DOCKER_IMAGE="rwbriscoe/rpi-busybox-httpd"
+DOCKER_IMAGE="billbriscoeawg/rpi-busybox-httpd"
 P1=$1
 P2=$2
 MAXNR=${P1:="1"}
